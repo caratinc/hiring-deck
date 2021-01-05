@@ -146,6 +146,7 @@ img.admin {
 * ソースコード管理: GitHub
 * チケット管理: JIRA
 * ドキュメンテーション・仕様管理: Confluence
+* デザイン: Figma
 * コミュニケーション: Slack, Zoom
 * CI/CD: Bitrise, CircleCI
 * 監視: Datadog
