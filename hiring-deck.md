@@ -2,7 +2,7 @@
 marp: true
 theme: gaia
 header: 株式会社Carat 会社紹介資料 エンジニア版
-footer: "更新日 2021年1月4日"
+footer: "更新日 2021年1月5日"
 paginate: true
 backgroundColor: white
 color: '#333333'
@@ -58,7 +58,6 @@ We bet these comments would help your presentation...
 * 新卒で株式会社SHIFTに入社し、<br>業務用Webアプリケーションの開発に従事
 * 2016年12月にCEO松本と株式会社Caratを共同創業
 * 2021年4月から京都大学大学院情報学研究科博士課程に進学予定
-* Like: テニス・読書・アニメ
 
 <img src="images/profile.jpg" class="profile" />
 
