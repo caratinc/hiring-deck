@@ -2,7 +2,7 @@
 marp: true
 theme: gaia
 header: 株式会社Carat 会社紹介資料 エンジニア版
-footer: "更新日 2021年1月5日"
+footer: "更新日 2021年1月7日"
 paginate: true
 backgroundColor: white
 color: '#333333'
@@ -47,6 +47,7 @@ We bet these comments would help your presentation...
 1. アーキテクチャ
 1. 開発フロー
 1. 価値観
+1. セールスポイント
 
 ---
 
@@ -106,6 +107,23 @@ img.glit2 {
   position: absolute;
   bottom: 70px;
   right: 80px;
+}
+</style>
+
+---
+
+### 提供しているサービス
+
+* MAUは堅調に伸長中
+
+<img src="images/mau.png" class="mau" />
+
+<style scoped>
+img.mau {
+  position: absolute;
+  width: 1060px;
+  bottom: 50px;
+  right: 110px;
 }
 </style>
 
@@ -189,10 +207,30 @@ img.flow {
 
 ### 価値観
 
-#### 1. 最小人数で最大限の価値を
+<span class="bold">1. 最小人数で最大限の価値を</span><br>ソフトウェアアーキテクチャの目的は求められるシステムを構築・保守するために必要な人材を最小限に抑えることである - Clean Architecture
 
-> ソフトウェアアーキテクチャの目的は求められるシステムを構築・保守するために必要な人材を最小限に抑えることである - Clean Architecture
+<span class="bold">2. 職人のこだわりと現実のバランス</span><br>QCDを守りつつも、1ピクセルのこだわりやメソッド・変数の命名などをないがしろにせずにしたいと思っています。
 
-#### 2. 職人のこだわりと現実のバランス
+<style scoped>
+span.bold {
+  font-weight: bold;
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+</style>
 
-QCDを守りつつも、1ピクセルのこだわりやメソッド・変数の命名などをないがしろにせずにしたいと思っています
+---
+
+### セールスポイント
+
+<span class="bold">1. 大きな裁量権</span><br>まだ小さなチームのため、大きな裁量権を持ってサービス開発に携わることができます。
+
+<span class="bold">2. ビジネスサイドの開発への理解度</span><br>CEOやPdMのエンジニアリングへの理解度が高いです。ビジネスサイドとの意思疎通が難しいなどのストレスが少なく、働きやすい環境だと思います。
+
+<style scoped>
+span.bold {
+  font-weight: bold;
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+</style>
