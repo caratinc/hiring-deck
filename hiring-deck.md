@@ -1,8 +1,8 @@
 ---
 marp: true
 theme: gaia
-header: 株式会社Carat 会社紹介資料 エンジニア版
-footer: "更新日 2021年3月10日"
+header: 株式会社Carat 会社紹介資料 エンジニア向け
+footer: "更新日 2021年3月11日"
 paginate: true
 backgroundColor: white
 color: '#333333'
@@ -29,7 +29,7 @@ p {
 
 ## 株式会社Carat 会社紹介資料
 
-エンジニア版
+エンジニア向け
 
 <!--
 Also supports multiline.
