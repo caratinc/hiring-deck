@@ -1,8 +1,6 @@
 ---
 marp: true
 theme: gaia
-header: 株式会社Carat 会社紹介資料 エンジニア向け
-footer: "更新日 2021年3月11日"
 paginate: true
 backgroundColor: white
 color: '#333333'
@@ -10,10 +8,9 @@ color: '#333333'
 
 <style>
 * {
-  font-family: "Hiragino Kaku Gothic ProN";
   /* font-family: "Hiragino Maru Gothic ProN"; */
-  /* font-family: YuGothic; */
-  letter-spacing: -0.02em;
+  font-family: YuGothic;
+  letter-spacing: -0.01em;
 }
 </style>
 
@@ -27,9 +24,17 @@ p {
 }
 </style>
 
-## 株式会社Carat 会社紹介資料
+## 株式会社Carat会社紹介資料
 
-エンジニア向け
+for Engineers
+
+<span class="note">2021.06 updated</span>
+
+<style scoped>
+span.note {
+  color: gray;
+}
+</style>
 
 <!--
 Also supports multiline.
@@ -38,47 +43,24 @@ We bet these comments would help your presentation...
 
 ---
 
-### 目次
+### Company
 
-1. 会社概要
-1. CTO紹介
-1. 提供しているサービス
-1. 技術スタックと開発ツール
-1. アーキテクチャ
-1. チーム
-1. 開発フロー
-1. 課題
-1. 価値観
-1. セールスポイント
-
-<style scoped>
-li {
-  font-size: 30px;
-}
-</style>
+- 2016年12月にCEO松本・CTO斎藤によって創業
+- 正社員は4名、業務委託の方を入れると12名
+  - うち、エンジニア・デザイナーはCTO含めて5名
+- 本社は東京都渋谷区代々木にありますが、全員リモート勤務
+- 詳しくはこちら↓<br>https://www.notion.so/Carat-3fdf975a11c24bc98e5a0274c0c05b31
 
 ---
 
-### 会社概要
+### About CTO
 
-* 2016年12月にCEO松本・CTO斎藤によって創業
-* 正社員は4名、業務委託の方を入れると10名ほど
-  * うち、エンジニア・デザイナーはCTO含めて3名
-* 本社は東京都渋谷区代々木にありますが、全員リモート勤務
-* 詳しくはこちら → https://www.notion.so/Carat-3fdf975a11c24bc98e5a0274c0c05b31
-
-#### →コロナ禍で体制を縮小しましたが、安定したビジネス基盤ができつつあるので改めて採用強化中
-
----
-
-### CTO紹介
-
-* 斎藤陽介( @saitoxu )
-* 1989年生まれ東京在住
-* 2014年京都大学大学院修了
-* 新卒で株式会社SHIFTに入社し、<br>業務用Webアプリケーションの開発に従事
-* 2016年12月にCEO松本と株式会社Caratを共同創業
-* 2021年4月から京都大学大学院情報学研究科博士課程に進学予定
+- 斎藤陽介( @saitoxu )
+- 1989年生まれ東京在住
+- 2014年京都大学大学院修了
+- 新卒で株式会社SHIFTに入社し、<br>業務用Webアプリケーションの開発に従事
+- 2016年12月にCEO松本と株式会社Caratを共同創業
+- 2021年4月に京都大学大学院情報学研究科博士課程に入学
 
 <img src="images/profile.jpg" class="profile" />
 
@@ -94,12 +76,55 @@ img.profile {
 
 ---
 
-### 提供しているサービス
+### Services
 
-* GLIT(グリット) https://glit.io
-* 20以上の求人サイトの求人情報を<br>掲載した転職サービス
-* 求人情報のアグリゲーション<br>→ レコメンデーションが特徴
-* iOS/Android/Webの<br>3プラットフォームで展開
+<img src="images/glit.webp" class="glit" />
+<img src="images/glit_admin.webp" class="glit_admin" />
+
+<span class="glit_caption">レコメンド型転職サービスGLIT(グリット)</span>
+<span class="glit_admin_caption">AIを活用した<br>企業向け採用ソリューションGLIT Admin</span>
+
+<style scoped>
+img.glit {
+  width: 500px;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+img.glit_admin {
+  width: 500px;
+  position: absolute;
+  top: 200px;
+  right: 100px;
+}
+span.glit_caption {
+  position: fixed;
+  width: 500px;
+  top: 480px;
+  font-weight: bold;
+  left: 100px;
+}
+span.glit_admin_caption {
+  position: fixed;
+  width: 500px;
+  top: 480px;
+  font-weight: bold;
+  right: 100px;
+}
+</style>
+
+---
+
+### GLIT
+
+<div style="width: 540px">
+
+- https://glit.io
+- 20以上の求人サイトの求人情報を掲載した転職サービス
+- 求人情報のアグリゲーションとレコメンデーションが特徴
+- iOS/Android/Webの3プラットフォームで展開
+
+</div>
 
 <img src="images/glit1.jpg" class="glit1" />
 <img src="images/glit2.jpg" class="glit2" />
@@ -121,131 +146,159 @@ img.glit2 {
 
 ---
 
-### 提供しているサービス
+### GLIT Admin
 
-* MAUは堅調に伸長中
+<div style="width: 540px">
 
-<img src="images/mau.png" class="mau" />
+- https://lp.glit.io/enterprise
+- 機械学習を活用した採用候補者のレコメンデーションが特徴
+- 2021年5月に大幅リニューアル
 
-<style scoped>
-img.mau {
-  position: absolute;
-  width: 1060px;
-  bottom: 50px;
-  right: 110px;
-}
-</style>
+</div>
 
----
-
-### 提供しているサービス
-
-* GLIT Admin https://glit.io/enterprise
-* 企業/エージェント向けの採用サービス
-* 採用候補者のレコメンデーション<br>が特徴
-
-<img src="images/admin.png" class="admin" />
+<img src="images/admin.webp" class="admin" />
 
 <style scoped>
 img.admin {
+  width: 500px;
   position: absolute;
-  bottom: 80px;
-  right: 60px;
+  bottom: 100px;
+  right: 80px;
 }
 </style>
 
 ---
 
-### 技術スタックと開発ツール
+### Tech Stack & Tools
 
-* GLIT
-  * iOS/Android: React Native(TypeScript約90%), Firebase
-  * Web: Next.js(TypeScript 100%)
-* GLIT Admin
-  * Web: React(TypeScript約40%)
-* API: Ruby on Rails
-* インフラ: AWS, GCP(BigQuery)
-
----
-
-### 技術スタックと開発ツール
-
-* ソースコード管理: GitHub
-* チケット管理: JIRA
-* ドキュメンテーション・仕様管理: Confluence
-* デザイン: Figma
-* コミュニケーション: Slack, Zoom
-* CI/CD: Bitrise, CircleCI
-* 監視: Datadog
+- GLIT
+  - iOS/Android: React Native(TypeScript 90%), Firebase
+  - Web: Next.js(TypeScript 100%)
+- GLIT Admin
+  - Web: Next.js(TypeScript 100%)
+- API: Ruby on Rails
+- レコメンデーション: Python
+- インフラ: AWS, GCP(BigQuery)
 
 ---
 
-### アーキテクチャ
+### Tech Stack & Tools
+
+- ソースコード管理: GitHub
+- チケット管理: JIRA
+- ドキュメンテーション・仕様管理: Confluence
+- デザイン: Figma
+- コミュニケーション: Slack, Zoom
+- CI/CD: Bitrise, CircleCI
+- モニタリング: Datadog, Sentry
+
+---
+
+### Architecture
+
+<div style="width: 470px">
+
+- 現在は2つのサービスで1つのAPIを共用しています
+- レコメンド機能はPrivate APIとして提供しています
+
+</div>
 
 <img src="images/architecture.png" class="arch" />
 
 <style scoped>
 img.arch {
   position: absolute;
-  width: 780px;
-  bottom: 20px;
-  left: 240px
+  width: 700px;
+  top: 180px;
+  right: 40px
 }
 </style>
 
 ---
 
-### チーム
+### Next Architecture
 
-* 主にプロダクト開発に関わっているのはCEO, CTO, PdM(COO), エンジニア2名(業務委託)
-* エンジニアの方は1人はデザイナー兼フロントエンドエンジニア、もう1人はフロントエンド専任
-* 現在はフロントエンドは業務委託の方々に、CTOがバックエンドなどその他全般を担当しています
+<div style="width: 370px">
+
+- サービス毎に独立して開発を進められるよう、現在APIのリファクタリングを進めています
+
+</div>
+
+<img src="images/next_architecture.png" class="arch" />
+
+<style scoped>
+img.arch {
+  position: absolute;
+  width: 800px;
+  top: 180px;
+  right: 40px
+}
+</style>
 
 ---
 
-### 開発フロー
+### Team
 
-* 週次のプロダクトミーティングでアサインなどを決めます(現在は毎週金曜)
-* コードレビューはCTOが担当しています
-* ソフトウェアテスト会社出身が多いのでQAは比較的厚めです
+<div style="width: 400px">
+
+- 現在は1つのチームで2つのサービスの開発・運営を行っています
+
+</div>
+
+<img src="images/team.png" class="team" />
+
+<style scoped>
+img.team {
+  position: absolute;
+  width: 680px;
+  top: 160px;
+  right: 70px
+}
+</style>
+
+---
+
+### Future Team
+
+<div style="width: 400px">
+
+- 年内を目処にサービス毎にチームを分け、よりスピーディに開発を進められる体制にしたいと考えています
+
+</div>
+
+<img src="images/future_team.png" class="team" />
+
+<style scoped>
+img.team {
+  position: absolute;
+  width: 680px;
+  top: 160px;
+  right: 70px
+}
+</style>
+
+---
+
+### Development Flow
+
+- 週次のプロダクトミーティングでアサインなどを決めます
+- コードレビューはCTO + 同じ職種のエンジニアが実施しています
+- ソフトウェアテスト会社出身のメンバーが多いのでQAが充実しています
 
 <img src="images/flow.png" class="flow" />
 
 <style scoped>
 img.flow {
-  width: 1180px;
+  width: 1100px;
   position: absolute;
   bottom: 120px;
-  left: 47px;
+  left: 84px;
 }
 </style>
 
 ---
 
-### 課題
-
-* 2021年4月でGLITはサービスインして5年目に入るため、少しずつ負債も目立つようになってきました
-* 特にAPIはモノリシックなRuby on Railsアプリケーションとして開発されているため、何かしら方針を立てリファクタリングを進め、次の5年に耐えうるようなアーキテクチャにしたいと考えています
-
----
-
-### 価値観
-
-<span class="bold">1. 最小人数で最大限の価値を</span><br>ソフトウェアアーキテクチャの目的は求められるシステムを構築・保守するために必要な人材を最小限に抑えることである - Clean Architecture
-
-<span class="bold">2. 職人のこだわりと現実のバランス</span><br>QCDを守りつつも、1ピクセルのこだわりやメソッド・変数の命名などをないがしろにせずにしたいと思っています。
-
-<style scoped>
-span.bold {
-  font-weight: bold;
-  font-size: 1.1rem;
-  line-height: 2rem;
-}
-</style>
-
----
-
-### セールスポイント
+### Selling Points
 
 <span class="bold">1. 大きな裁量権</span><br>まだ小さなチームのため、大きな裁量権を持ってサービス開発に携わることができます。
 
