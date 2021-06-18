@@ -8,7 +8,6 @@ color: '#333333'
 
 <style>
 * {
-  /* font-family: "Hiragino Kaku Gothic ProN"; */
   /* font-family: "Hiragino Maru Gothic ProN"; */
   font-family: YuGothic;
   letter-spacing: -0.01em;
@@ -240,30 +239,60 @@ img.arch {
 
 ### Team
 
-- TODO
+<div style="width: 400px">
+
+- 現在は1つのチームで2つのサービスの開発・運営を行っています
+
+</div>
+
+<img src="images/team.png" class="team" />
+
+<style scoped>
+img.team {
+  position: absolute;
+  width: 680px;
+  top: 160px;
+  right: 70px
+}
+</style>
 
 ---
 
 ### Future Team
 
-- TODO
+<div style="width: 400px">
+
+- 年内を目処にサービス毎にチームを分け、よりスピーディに開発を進められる体制にしたいと考えています
+
+</div>
+
+<img src="images/future_team.png" class="team" />
+
+<style scoped>
+img.team {
+  position: absolute;
+  width: 680px;
+  top: 160px;
+  right: 70px
+}
+</style>
 
 ---
 
 ### Development Flow
 
 - 週次のプロダクトミーティングでアサインなどを決めます
-- コードレビューはCTO + 同じ職種のエンジニアが実施
-- ソフトウェアテスト会社出身が多いのでQAは比較的厚めです
+- コードレビューはCTO + 同じ職種のエンジニアが実施しています
+- ソフトウェアテスト会社出身のメンバーが多いのでQAが充実しています
 
 <img src="images/flow.png" class="flow" />
 
 <style scoped>
 img.flow {
-  width: 1180px;
+  width: 1100px;
   position: absolute;
   bottom: 120px;
-  left: 47px;
+  left: 84px;
 }
 </style>
 
