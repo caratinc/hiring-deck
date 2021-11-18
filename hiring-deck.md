@@ -28,7 +28,7 @@ p {
 
 for Engineers
 
-<span class="note">2021.06 updated</span>
+<span class="note">2021.11 updated</span>
 
 <style scoped>
 span.note {
@@ -46,7 +46,7 @@ We bet these comments would help your presentation...
 ### Company
 
 - 2016年12月にCEO松本・CTO斎藤によって創業
-- 正社員は4名、業務委託の方を入れると12名
+- 正社員は4名、業務委託の方を入れると10名ほど
   - うち、エンジニア・デザイナーはCTO含めて5名
 - 本社は東京都渋谷区代々木にありますが、全員リモート勤務
 - 詳しくはこちら↓<br>https://www.notion.so/Carat-3fdf975a11c24bc98e5a0274c0c05b31
@@ -152,7 +152,6 @@ img.glit2 {
 
 - https://lp.glit.io/enterprise
 - 機械学習を活用した採用候補者のレコメンデーションが特徴
-- 2021年5月に大幅リニューアル
 
 </div>
 
@@ -177,7 +176,7 @@ img.admin {
 - GLIT Admin
   - Web: Next.js(TypeScript 100%)
 - API: Ruby on Rails
-- レコメンデーション: Python
+- 推薦API: FastAPI, Amazon SageMaker
 - インフラ: AWS, GCP(BigQuery)
 
 ---
@@ -198,7 +197,7 @@ img.admin {
 
 <div style="width: 470px">
 
-- 現在は2つのサービスで1つのAPIを共用しています
+- 現在は2つのサービスで1つのAPIを共用するモノリスな構成です
 - レコメンド機能はPrivate APIとして提供しています
 
 </div>
@@ -216,32 +215,11 @@ img.arch {
 
 ---
 
-### Next Architecture
-
-<div style="width: 370px">
-
-- サービス毎に独立して開発を進められるよう、現在APIのリファクタリングを進めています
-
-</div>
-
-<img src="images/next_architecture.png" class="arch" />
-
-<style scoped>
-img.arch {
-  position: absolute;
-  width: 800px;
-  top: 180px;
-  right: 40px
-}
-</style>
-
----
-
 ### Team
 
-<div style="width: 400px">
+<div style="width: 500px">
 
-- 現在は1つのチームで2つのサービスの開発・運営を行っています
+- 1チームですべてのサービスの開発・運営を行っています
 
 </div>
 
@@ -250,30 +228,9 @@ img.arch {
 <style scoped>
 img.team {
   position: absolute;
-  width: 680px;
-  top: 160px;
-  right: 70px
-}
-</style>
-
----
-
-### Future Team
-
-<div style="width: 400px">
-
-- 年内を目処にサービス毎にチームを分け、よりスピーディに開発を進められる体制にしたいと考えています
-
-</div>
-
-<img src="images/future_team.png" class="team" />
-
-<style scoped>
-img.team {
-  position: absolute;
-  width: 680px;
-  top: 160px;
-  right: 70px
+  width: 600px;
+  top: 150px;
+  right: 30px
 }
 </style>
 
@@ -302,7 +259,7 @@ img.flow {
 
 <span class="bold">1. 大きな裁量権</span><br>まだ小さなチームのため、大きな裁量権を持ってサービス開発に携わることができます。
 
-<span class="bold">2. ビジネスサイドの開発への理解度</span><br>CEOやPdMのエンジニアリングへの理解度が高いです。ビジネスサイドとの意思疎通が難しいなどのストレスが少なく、働きやすい環境だと思います。
+<span class="bold">2. ビジネスサイドの開発への理解度</span><br>CEOやPdMのエンジニアリングへの理解度が高いです。ビジネスサイドとの意思疎通が難しいなどのストレスが少なく、価値創造に集中できる環境だと思います。
 
 <style scoped>
 span.bold {
