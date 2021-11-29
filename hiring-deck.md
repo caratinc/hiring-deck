@@ -215,7 +215,7 @@ img.arch {
 
 ---
 
-### Team
+<!-- ### Team
 
 <div style="width: 500px">
 
@@ -234,7 +234,7 @@ img.team {
 }
 </style>
 
----
+--- -->
 
 ### Development Flow
 
@@ -250,6 +250,22 @@ img.flow {
   position: absolute;
   bottom: 120px;
   left: 84px;
+}
+</style>
+
+---
+
+### Challenges
+
+<span class="bold">1. 膨大な求人数の活用</span><br>パートナー企業から提供を受けている百万件近くの求人を、ニアリアルタイムでユーザーに提供する必要があります。単純に求人をストアするだけでなく、データの構造化や特徴量の抽出など数々のチャレンジがあります。
+
+<span class="bold">2. 様々なパートナー企業とのシステム連携</span><br>今後更に連携パートナーを増やしていけるよう、システム連携の仕組み化・抽象化を念頭に置きつつアーキテクチャの設計や開発業務を推進する必要があります。
+
+<style scoped>
+span.bold {
+  font-weight: bold;
+  font-size: 1.1rem;
+  line-height: 2rem;
 }
 </style>
 
