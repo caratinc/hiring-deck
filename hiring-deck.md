@@ -28,7 +28,7 @@ p {
 
 for Engineers
 
-<span class="note">2021.11 updated</span>
+<span class="note">2021.12 updated</span>
 
 <style scoped>
 span.note {
@@ -238,20 +238,34 @@ img.team {
 
 ### Development Flow
 
-- 週次のプロダクトミーティングでアサインなどを決めます
+- PdMからチケットがアサインされます
 - コードレビューはCTO + 同じ職種のエンジニアが実施しています
 - ソフトウェアテスト会社出身のメンバーが多いのでQAが充実しています
+- 週次のプロダクトミーティングでは今後のタスクに関するディスカッションや振り返りなどを行っています
 
 <img src="images/flow.png" class="flow" />
 
 <style scoped>
 img.flow {
-  width: 1100px;
+  width: 1000px;
   position: absolute;
-  bottom: 120px;
-  left: 84px;
+  bottom: 36px;
+  left: 134px;
 }
 </style>
+
+---
+
+### Ticket Examples
+
+- フロントエンド
+  - アプリストアへのレビュー機能追加
+  - おすすめ画面から直接求人応募できるような導線追加
+  - etc.
+- バックエンド
+  - 雇用形態で検索できるように求人検索APIを改修
+  - 求人の重複判定バッチ開発
+  - etc.
 
 ---
 
