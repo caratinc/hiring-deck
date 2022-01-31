@@ -28,7 +28,7 @@ p {
 
 for Engineers
 
-<span class="note">2021.12 updated</span>
+<span class="note">2022.01 updated</span>
 
 <style scoped>
 span.note {
@@ -49,7 +49,7 @@ We bet these comments would help your presentation...
 - 正社員は4名、業務委託の方を入れると10名ほど
   - うち、エンジニア・デザイナーはCTO含めて5名
 - 本社は東京都渋谷区代々木にありますが、全員リモート勤務
-- 詳しくはこちら↓<br>https://www.notion.so/Carat-3fdf975a11c24bc98e5a0274c0c05b31
+- 詳しくはこちら↓<br>https://caratinc.notion.site/Carat-3fdf975a11c24bc98e5a0274c0c05b31
 
 ---
 
@@ -185,7 +185,7 @@ img.admin {
 
 - ソースコード管理: GitHub
 - チケット管理: JIRA
-- ドキュメンテーション・仕様管理: Confluence
+- ドキュメンテーション・仕様管理: Notion
 - デザイン: Figma
 - コミュニケーション: Slack, Zoom
 - CI/CD: Bitrise, CircleCI
